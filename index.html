@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section id="wrap">
+		<h1>"Калькулятор"</h1>
+		<h2>Результат</h2>	
+		<input id="number1" type="text" placeholder="Введите первое число">
+		<input id="operators" type="text" style="border: none;">
+		<input id="number2" type="text" placeholder="Введите второе число"><br>
+		<button id="oper" onclick="add()">+</button>
+		<button id="oper" onclick="sub()">-</button>
+		<button id="oper" onclick="mult()">*</button>
+		<button id="oper" onclick="div()">/</button><br>
+		<button id="oper" class="res" onclick="go()">=</button>
+		<h3>Все результаты одновременно</h3>
+		<button onclick="allResults()"><img src="img/s1.png" alt="" width="30px" height="30px"></button>
+		<h4 id="addit"></h4>
+		<h4 id="subt"></h4>
+		<h4 id="multip"></h4>
+		<h4 id="divis"></h4>
+	</section>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
